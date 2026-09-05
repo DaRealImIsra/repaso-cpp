@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Depurar (Linux/WSL)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/suma",
+            "MIMode": "gdb",
+            "externalConsole": false,
+            "preLaunchTask": "compilar"
+        }
+    ]
+}

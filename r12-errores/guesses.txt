@@ -1,0 +1,14 @@
+R12 · Ejercicio
+Cinco mensajes, cinco diagnósticos
+Para cada mensaje, di qué etapa lo emitió y qué hay que corregir. Sin ver el código.
+
+1) p1.cpp:9:7: error: expected initializer before 'origen'
+    Compilador, checar las lineas de arriba por un error de sintaxis
+2) /usr/bin/ld: undefined reference to `Cuenta::depositar(double)'
+    Enlazador, no esta declarada esa funcion
+3) p3.cpp:6:24: error: cannot convert 'std::string' to 'int'
+    Compilador, no puedes asignar un string a un int
+4) p4.cpp:3:10: error: 'vector' is not a member of 'std'
+    Compilador, falto incluir <vector>
+5) /usr/bin/ld: multiple definition of `doble(int)'
+    Enlazador, se pasa doble(int) por los headers y luego se repite otra vez
